@@ -4,11 +4,13 @@
       "message": "Hello world!",
   },
   
-  "containers": {
-      "orange": {
-        "name": "Tube sec",
-        "icon": "tubesec.png",
-      }
+  "containers": [
+        {
+          "id": "orange",
+          "name": "Tube sec",
+          "icon": "tubesec.png", 
+        },
+      ]
   },
  
   "analysis": {
