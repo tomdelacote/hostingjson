@@ -6,8 +6,8 @@
   
   "containers": {
       "orange": {
-        name: "Tube sec",
-        icon: "tubesec.png",
+        "name": "Tube sec",
+        "icon": "tubesec.png",
       }
   },
  
