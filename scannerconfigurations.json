@@ -1,22 +1,22 @@
 {
-  "metadata" = {
-      "version" = 1,
-      "message" = "Hello world!",
+  "metadata": {
+      "version": 1,
+      "message": "Hello world!",
   },
   
-  "containers" = {
-      "orange" = {
-        name = "Tube sec",
-        icon = "tubesec.png",
+  "containers": {
+      "orange": {
+        name: "Tube sec",
+        icon: "tubesec.png",
       }
   },
  
-  "analysis" = {
-      "ACAN" = {
-          "keywords" = ["ACAN", "Anticorps"],
-          "containers" = ["orange"],
-          "description" = "ACAN (dépistage) Anticorps anti-nucléaire",
-          "stable" = "-",
+  "analysis": {
+      "ACAN": {
+          "keywords": ["ACAN", "Anticorps"],
+          "containers": ["orange"],
+          "description": "ACAN (dépistage) Anticorps anti-nucléaire",
+          "stable": "-",
       }
   },
 }
