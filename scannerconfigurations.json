@@ -1,24 +1,2505 @@
 {
-  "metadata": {
-      "version": 1,
-      "message": "Hello world!",
-  },
-  
-  "containers": [
-        {
-          "id": "orange",
-          "name": "Tube sec",
-          "icon": "tubesec.png", 
+    "metadata": {
+        "version": 1,
+        "message": "Hello world!"
+    },
+    "index": {
+        "tubes": {
+            "BLANC": 1,
+            "VERT_CLAIR": 2,
+            "VERT_FONCE": 3,
+            "JAUNE": 4,
+            "ROUGE": 5,
+            "BLEU": 6,
+            "VIOLET": 7,
+            "GRIS": 8,
+            "NOIR": 9
+        }
+    },
+    "data": {
+        "tubes": {
+            "1": {
+                "color": "BLANC",
+                "displayName": "tube de purge",
+                "imageId": "imageIdHere",
+                "order": 1
+            },
+            "2": {
+                "color": "VERT_CLAIR",
+                "displayName": "tube h\u00e9parine avec gel",
+                "imageId": "imageIdHere",
+                "order": 2
+            },
+            "3": {
+                "color": "VERT_FONCE",
+                "displayName": "tube h\u00e9parine sans gel",
+                "imageId": "imageIdHere",
+                "order": 3
+            },
+            "4": {
+                "color": "JAUNE",
+                "displayName": "tube sec avec gel",
+                "imageId": "imageIdHere",
+                "order": 4
+            },
+            "5": {
+                "color": "ROUGE",
+                "displayName": "tube sec sans gel",
+                "imageId": "imageIdHere",
+                "order": 5
+            },
+            "6": {
+                "color": "BLEU",
+                "displayName": "tube citrate",
+                "imageId": "imageIdHere",
+                "order": 6
+            },
+            "7": {
+                "color": "VIOLET",
+                "displayName": "tube EDTA",
+                "imageId": "imageIdHere",
+                "order": 7
+            },
+            "8": {
+                "color": "GRIS",
+                "displayName": "Tube fluorure de sodium",
+                "imageId": "imageIdHere",
+                "order": 8
+            },
+            "9": {
+                "color": "NOIR",
+                "displayName": "tube \u00e0 citrate de sodium",
+                "imageId": "imageIdHere",
+                "order": 9
+            }
         },
-  ],
-  
- 
-  "analysis": {
-      "ACAN": {
-          "keywords": ["ACAN", "Anticorps"],
-          "containers": ["orange"],
-          "description": "ACAN (dépistage) Anticorps anti-nucléaire",
-          "stable": "-",
-      }
-  }
+        "analysis": {
+            "1": {
+                "keywords": [
+                    [
+                        "amh",
+                        "hormone antimullerienne"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "AMH, Hormone anti-mull\u00e9rienne",
+                "stable": ""
+            },
+            "2": {
+                "keywords": [
+                    [
+                        "alcool ethylique"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Alcool \u00e9thylique",
+                "stable": "24 heures"
+            },
+            "3": {
+                "keywords": [
+                    [
+                        "albumine",
+                        "alb"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Albumine, Alb",
+                "stable": "24 heures"
+            },
+            "4": {
+                "keywords": [
+                    [
+                        "alat",
+                        "sgpt",
+                        "tgp",
+                        "alanine amino transferase transaminase"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "ALAT, SGPT, TGP, Alanine Amino Transf\u00e9rase. Transaminase",
+                "stable": "24 heures"
+            },
+            "5": {
+                "keywords": [
+                    [
+                        "afp",
+                        "alpha foeto proteine"
+                    ]
+                ],
+                "containers": [
+                    2,
+                    4
+                ],
+                "description": "AFP, Alpha Foeto Prot\u00e9ine",
+                "stable": "7 jours"
+            },
+            "6": {
+                "keywords": [
+                    [
+                        "addis",
+                        "hlm",
+                        "compte d`addis"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Addis, HLM, compte d`Addis",
+                "stable": "2 heures, 24 heures si l`\u00e9chantillon est conserv\u00e9 entre 2 et 8\u00b0C"
+            },
+            "7": {
+                "keywords": [
+                    [
+                        "acth",
+                        "corticotrophine",
+                        "adrenocorticotrophine"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "ACTH, Corticotrophine, Adr\u00e9nocorticotrophine",
+                "stable": "4 heures"
+            },
+            "8": {
+                "keywords": [
+                    [
+                        "acide valproique",
+                        "depakine",
+                        "valproate"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Acide valproique, d\u00e9pakine, valproate",
+                "stable": "2 jours"
+            },
+            "9": {
+                "keywords": [
+                    [
+                        "acide urique",
+                        "uricemie"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Acide urique, uric\u00e9mie",
+                "stable": "24 heures"
+            },
+            "10": {
+                "keywords": [
+                    [
+                        "acide urique urinaire",
+                        "uricurie",
+                        "uraturie"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Acide urique urinaire, uricurie, uraturie",
+                "stable": "4 jours \u00e0 temp\u00e9rature ambiante exclusivement"
+            },
+            "11": {
+                "keywords": [
+                    [
+                        "ace",
+                        "antigene carcino embryonnaire"
+                    ]
+                ],
+                "containers": [
+                    2,
+                    4
+                ],
+                "description": "ACE, Antig\u00e8ne Carcino Embryonnaire",
+                "stable": "7 jours"
+            },
+            "12": {
+                "keywords": [
+                    [
+                        "acan",
+                        "anticorps antinucleaire"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "ACAN (d\u00e9pistage), Anticorps anti-nucl\u00e9aire",
+                "stable": ""
+            },
+            "13": {
+                "keywords": [
+                    [
+                        "anticorps anti mpo",
+                        "anticorps antimyeloperoxydase"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti MPO (p.ANCA), Anticorps antimy\u00e9loperoxydase",
+                "stable": ""
+            },
+            "14": {
+                "keywords": [
+                    [
+                        "anticorps anti mitochondries",
+                        "ama"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti mitochondries, AMA",
+                "stable": ""
+            },
+            "15": {
+                "keywords": [
+                    [
+                        "anticorps anti lkm",
+                        "anticorps antimicrosome du foie et du rein lkm1",
+                        "anticorps antireticulum endoplasmique"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti LKM, Anticorps anti-microsome du foie et du rein - LKM1, Anticorps anti-r\u00e9ticulum endoplasmique",
+                "stable": ""
+            },
+            "16": {
+                "keywords": [
+                    [
+                        "anticorps anti hbe"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti HBe",
+                "stable": ""
+            },
+            "17": {
+                "keywords": [
+                    [
+                        "anticorps anti facteur intrinseque",
+                        "anticorps anti fi"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti Facteur Intrins\u00e8que, Anticorps anti FI",
+                "stable": ""
+            },
+            "18": {
+                "keywords": [
+                    [
+                        "anticorps anti ena",
+                        "anticorps antinucleaires solubles"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti ENA (d\u00e9pistage), Anticorps anti-nucl\u00e9aires solubles",
+                "stable": ""
+            },
+            "19": {
+                "keywords": [
+                    [
+                        "anticorps anti dna",
+                        "dna natif ac anti adn"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti DNA, DNA Natif \u2013 AC anti ADN",
+                "stable": ""
+            },
+            "20": {
+                "keywords": [
+                    [
+                        "anticorps anti ccp",
+                        "anticorps antipeptides citrullines",
+                        "vmc ou antivmc",
+                        "mcv ou antimcv"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti CCP, Anticorps anti-peptides citrullines, VMC ou Anti-VMC, MCV ou antiMCV",
+                "stable": ""
+            },
+            "21": {
+                "keywords": [
+                    [
+                        "anticorps anti cardiolipines"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti cardiolipines (IgG et IgM)",
+                "stable": ""
+            },
+            "22": {
+                "keywords": [
+                    [
+                        "anticorps anti beta 2 gp"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti beta 2 GP (IgG et IgM)",
+                "stable": ""
+            },
+            "23": {
+                "keywords": [
+                    [
+                        "anti xa",
+                        "activite anti xa"
+                    ]
+                ],
+                "containers": [
+                    6
+                ],
+                "description": "Anti Xa, Activit\u00e9 anti Xa",
+                "stable": "2 heures"
+            },
+            "24": {
+                "keywords": [
+                    [
+                        "anti tpo",
+                        "anticorps antithyroperoxydase"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anti TPO, Anticorps anti-thyroperoxydase",
+                "stable": ""
+            },
+            "25": {
+                "keywords": [
+                    [
+                        "anti tg",
+                        "anticorps antithyroglobuline"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anti TG, Anticorps anti-thyroglobuline",
+                "stable": ""
+            },
+            "26": {
+                "keywords": [
+                    [
+                        "anti d",
+                        "anti d passif"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Anti D, Anti D passif",
+                "stable": "24 heures, garder le pr\u00e9l\u00e8vement entre 2 et 8\u00b0C si d\u00e9lai plus long"
+            },
+            "27": {
+                "keywords": [
+                    [
+                        "ammoniemie",
+                        "nh3"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Ammoni\u00e9mie, NH3",
+                "stable": "Le plus RAPIDEMENT possible (dosage dans les 15 min) Transporter dans la glace."
+            },
+            "28": {
+                "keywords": [
+                    [
+                        "ca 125"
+                    ]
+                ],
+                "containers": [
+                    2,
+                    4
+                ],
+                "description": "CA 125",
+                "stable": "2 jours"
+            },
+            "29": {
+                "keywords": [
+                    [
+                        "c4"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "C4",
+                "stable": ""
+            },
+            "30": {
+                "keywords": [
+                    [
+                        "c3"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "C3",
+                "stable": ""
+            },
+            "31": {
+                "keywords": [
+                    [
+                        "bilirubine totale et fractions",
+                        "bilirubinemie",
+                        "bt",
+                        "bt + bc"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Bilirubine totale et fractions, Bilirubin\u00e9mie, BT, BT + BC",
+                "stable": "24 heures"
+            },
+            "32": {
+                "keywords": [
+                    [
+                        "beta 2 microglobuline sanguine",
+                        "b2m"
+                    ]
+                ],
+                "containers": [
+                    2,
+                    4
+                ],
+                "description": "B\u00e9ta 2 microglobuline sanguine, B2M",
+                "stable": "24 heures"
+            },
+            "33": {
+                "keywords": [
+                    [
+                        "b hcg",
+                        "test de grossesse",
+                        "gonadotrophine chorionique beta"
+                    ]
+                ],
+                "containers": [
+                    2,
+                    4
+                ],
+                "description": "B HCG, Test de grossesse, Gonadotrophine Chorionique B\u00e9ta",
+                "stable": "48 heures"
+            },
+            "34": {
+                "keywords": [
+                    [
+                        "aslo antistreptolysine o"
+                    ]
+                ],
+                "containers": [
+                    2,
+                    4
+                ],
+                "description": "ASLO - Antistreptolysine O",
+                "stable": "48 heures"
+            },
+            "35": {
+                "keywords": [
+                    [
+                        "asd antistreptodornase",
+                        "serologies streptocoques"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "ASD - Antistreptodornase, S\u00e9rologies streptocoques",
+                "stable": "48 heures"
+            },
+            "36": {
+                "keywords": [
+                    [
+                        "asat",
+                        "tgo",
+                        "sgot",
+                        "aspartate amino transferase",
+                        "transaminase"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "ASAT, TGO, SGOT, Aspartate Amino Transf\u00e9rase, Transaminase",
+                "stable": "24 heures"
+            },
+            "37": {
+                "keywords": [
+                    [
+                        "antigene anti hbe"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Antig\u00e8ne anti Hbe",
+                "stable": ""
+            },
+            "38": {
+                "keywords": [
+                    [
+                        "anticorps antirecepteur de la tsh",
+                        "anticorps antirecepteur de la thyreostimuline"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti-r\u00e9cepteur de la TSH, anticorps anti-r\u00e9cepteur de la thyr\u00e9ostimuline (TRAK)",
+                "stable": ""
+            },
+            "39": {
+                "keywords": [
+                    [
+                        "anticorps anti transglutaminase"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti transglutaminase (IgA)",
+                "stable": ""
+            },
+            "40": {
+                "keywords": [
+                    [
+                        "anticorps anti pr3",
+                        "anticorps antiproteinase 3"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti PR3 (c.ANCA), Anticorps antiprot\u00e9inase 3",
+                "stable": ""
+            },
+            "41": {
+                "keywords": [
+                    [
+                        "anticorps anti nucleaire solubles"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Anticorps anti nucl\u00e9aire solubles",
+                "stable": ""
+            },
+            "42": {
+                "keywords": [
+                    [
+                        "clostridium difficile",
+                        "recherche de toxines a et b de c difficile"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Clostridium difficile, Recherche de toxines A et B de C. Difficile",
+                "stable": "6 heures \u00e0 temp\u00e9rature ambiante, 72 heures si \u00e9chantillon r\u00e9frig\u00e9r\u00e9"
+            },
+            "43": {
+                "keywords": [
+                    [
+                        "ck",
+                        "creatine kinase",
+                        "creatine phosphokinase ou cpk"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "CK, Cr\u00e9atine Kinase, Cr\u00e9atine PhosphoKinase ou CPK",
+                "stable": "24 heures"
+            },
+            "44": {
+                "keywords": [
+                    [
+                        "cholesterol et fractions hdl ldl",
+                        "bilan lipidique",
+                        "eal",
+                        "cholesterolemie",
+                        "ct"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Cholest\u00e9rol et fractions HDL -LDL, Bilan lipidique, EAL, Cholest\u00e9rol\u00e9mie, CT",
+                "stable": "24 heures"
+            },
+            "45": {
+                "keywords": [
+                    [
+                        "chlore",
+                        "cl",
+                        "chloremie",
+                        "chlorure"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Chlore, CL-, Chlor\u00e9mie, Chlorure",
+                "stable": "24 heures"
+            },
+            "46": {
+                "keywords": [
+                    [
+                        "chlamydiae trachomatis serologie"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Chlamydiae trachomatis - s\u00e9rologie",
+                "stable": "3 jours"
+            },
+            "47": {
+                "keywords": [
+                    [
+                        "chlamydiae trachomatis recherche"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Chlamydiae trachomatis - recherche",
+                "stable": ""
+            },
+            "48": {
+                "keywords": [
+                    [
+                        "charge virale vih"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Charge virale VIH",
+                "stable": ""
+            },
+            "49": {
+                "keywords": [
+                    [
+                        "charge virale hepatite c"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Charge virale H\u00e9patite C",
+                "stable": ""
+            },
+            "50": {
+                "keywords": [
+                    [
+                        "charge virale hepatite b"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Charge virale H\u00e9patite B",
+                "stable": ""
+            },
+            "51": {
+                "keywords": [
+                    [
+                        "cdt",
+                        "carboxy deficient transferrine",
+                        "tcd"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "CDT, Carboxy D\u00e9ficient Transferrine,TCD",
+                "stable": "3 jours"
+            },
+            "52": {
+                "keywords": [
+                    [
+                        "carboxyhemoglobine",
+                        "monoxyde de carbone"
+                    ]
+                ],
+                "containers": [
+                    3
+                ],
+                "description": "Carboxyh\u00e9moglobine, monoxyde de carbone",
+                "stable": "8 heures"
+            },
+            "53": {
+                "keywords": [
+                    [
+                        "calcium",
+                        "calcemie"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Calcium, calc\u00e9mie",
+                "stable": "24 heures"
+            },
+            "54": {
+                "keywords": [
+                    [
+                        "calcium urinaire",
+                        "calciurie"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Calcium urinaire, Calciurie",
+                "stable": "4 jours entre 4 et 8\u00b0C, 2 jours \u00e0 temp\u00e9rature ambiante"
+            },
+            "55": {
+                "keywords": [
+                    [
+                        "calcium ionise",
+                        "caio"
+                    ]
+                ],
+                "containers": [
+                    3
+                ],
+                "description": "Calcium ionis\u00e9, CAIO",
+                "stable": "6 heures"
+            },
+            "56": {
+                "keywords": [
+                    [
+                        "ca 199"
+                    ]
+                ],
+                "containers": [
+                    2,
+                    4
+                ],
+                "description": "CA 19-9",
+                "stable": "7 jours"
+            },
+            "57": {
+                "keywords": [
+                    [
+                        "ca 153"
+                    ]
+                ],
+                "containers": [
+                    2,
+                    4
+                ],
+                "description": "CA 15-3",
+                "stable": "7 jours"
+            },
+            "58": {
+                "keywords": [
+                    [
+                        "ddimeres"
+                    ]
+                ],
+                "containers": [
+                    6
+                ],
+                "description": "D-Dim\u00e8res",
+                "stable": "12 heures"
+            },
+            "59": {
+                "keywords": [
+                    [
+                        "cytologies nasale et lacrymale"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Cytologies nasale et lacrymale",
+                "stable": "2 heures \u00e9couvillon SANS gel"
+            },
+            "60": {
+                "keywords": [
+                    [
+                        "cytologie urinaire",
+                        "cyto"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Cytologie urinaire, Cyto",
+                "stable": "6 heures, 12 heures si l\u2019\u00e9chantillon est conserv\u00e9 \u00e0 entre 2 et 8\u00b0C, 24 heures sur tube avec conservateur"
+            },
+            "61": {
+                "keywords": [
+                    [
+                        "cytobacteriologie des urines",
+                        "cbu",
+                        "ecbu",
+                        "ccbu"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Cytobact\u00e9riologie des urines, CBU, ECBU, CCBU (CBU + dosage d`albumine et de Sucre)",
+                "stable": "Acheminement dans les 2 heures qui suivent le recueil \u00e0 temp\u00e9rature ambiante ou dans les 12 heures si l`\u00e9chantillon est conserv\u00e9 \u00e0 +4\u00b0C. Pour allonger le temps de conservation jusqu`\u00e0 24h, l`urine doit \u00eatre transf\u00e9r\u00e9e dans le tube avec conservateur"
+            },
+            "62": {
+                "keywords": [
+                    [
+                        "cyfra 21",
+                        "fragment de cytokeratine 19"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "CYFRA 21, fragment de cytok\u00e9ratine 19",
+                "stable": ""
+            },
+            "63": {
+                "keywords": [
+                    [
+                        "crp",
+                        "proteine c reactive ultra sensible",
+                        "c reactive protein ctx",
+                        "cross laps"
+                    ]
+                ],
+                "containers": [
+                    2,
+                    7
+                ],
+                "description": "CRP, Prot\u00e9ine C R\u00e9active Ultra sensible, C R\u00e9active Protein CTX, Cross laps",
+                "stable": "24 heures"
+            },
+            "64": {
+                "keywords": [
+                    [
+                        "creatinine",
+                        "creatininemie",
+                        "clairance a la creatinine",
+                        "creat",
+                        "mdrd",
+                        "ckd"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Cr\u00e9atinine, Cr\u00e9atinin\u00e9mie, Clairance \u00e0 la cr\u00e9atinine, Cr\u00e9at, MDRD, CKD",
+                "stable": "24 heures"
+            },
+            "65": {
+                "keywords": [
+                    [
+                        "creatinine urinaire",
+                        "creatininurie",
+                        "creat urinaire"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Cr\u00e9atinine urinaire, Cr\u00e9atininurie, cr\u00e9at urinaire",
+                "stable": "2 jours"
+            },
+            "66": {
+                "keywords": [
+                    [
+                        "cortisol"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Cortisol",
+                "stable": "24 heures"
+            },
+            "67": {
+                "keywords": [
+                    [
+                        "coproculture",
+                        "examen cytobacteriologique des selles",
+                        "copro"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Coproculture, examen cytobact\u00e9riologique des selles, copro.",
+                "stable": "2 heures, pour allonger le temps utiliser le milieu de transport FecalSwab - voir annexe"
+            },
+            "68": {
+                "keywords": [
+                    [
+                        "coombs direct",
+                        "test a l`antiglobuline",
+                        "coombs"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Coombs direct, test \u00e0 l`antiglobuline, COOMBS",
+                "stable": "24 heures, garder le pr\u00e9l\u00e8vement entre 2 et 8\u00b0C si d\u00e9lai plus long"
+            },
+            "69": {
+                "keywords": [
+                    [
+                        "cmv",
+                        "cytomegalovirus igg igm",
+                        "cmv"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "CMV (IgG et IgM), Cytom\u00e9galovirus IgG IgM, CMV",
+                "stable": "24 heures"
+            },
+            "70": {
+                "keywords": [
+                    [
+                        "glucose urinaire",
+                        "glycosurie",
+                        "s",
+                        "inclus dans ccbu"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Glucose urinaire, Glycosurie, S, inclus dans CCBU (en plus de la CBU)",
+                "stable": "8 heures"
+            },
+            "71": {
+                "keywords": [
+                    [
+                        "ggt",
+                        "gammaglutamyltransferase"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "GGT, Gamma-glutamyltransf\u00e9rase",
+                "stable": "24 heures"
+            },
+            "72": {
+                "keywords": [
+                    [
+                        "gaz du sang"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Gaz du sang",
+                "stable": "30 min, 1 heure si conserv\u00e9 dans la glace fondue"
+            },
+            "73": {
+                "keywords": [
+                    [
+                        "fsh",
+                        "folliculo stimulating hormone"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "FSH, Folliculo Stimulating Hormone",
+                "stable": "72 heures"
+            },
+            "74": {
+                "keywords": [
+                    [
+                        "folates seriques",
+                        "acide folique",
+                        "vitamine b9"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Folates s\u00e9riques, Acide folique, Vitamine B9",
+                "stable": "6 heures"
+            },
+            "75": {
+                "keywords": [
+                    [
+                        "fibrinogene",
+                        "fibrine"
+                    ]
+                ],
+                "containers": [
+                    6
+                ],
+                "description": "Fibrinog\u00e8ne, Fibrine",
+                "stable": "24 heures"
+            },
+            "76": {
+                "keywords": [
+                    [
+                        "ferritine",
+                        "ferri",
+                        "reserve en fer"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Ferritine, FERRI, R\u00e9serve en Fer",
+                "stable": "24 heures"
+            },
+            "77": {
+                "keywords": [
+                    [
+                        "fer",
+                        "sideremie"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Fer, sid\u00e9r\u00e9mie",
+                "stable": "24 heures"
+            },
+            "78": {
+                "keywords": [
+                    [
+                        "facteur v",
+                        "proaccelerine",
+                        "cofacteur du complexe prothrombine"
+                    ]
+                ],
+                "containers": [
+                    6
+                ],
+                "description": "Facteur V, Proacc\u00e9l\u00e9rine, Cofacteur du complexe Prothrombine",
+                "stable": "4 heures"
+            },
+            "79": {
+                "keywords": [
+                    [
+                        "facteur rhumatoide",
+                        "fr",
+                        "latex",
+                        "waaler rose"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Facteur Rhumato\u00efde, FR, latex, Waaler Rose",
+                "stable": "6 heures"
+            },
+            "80": {
+                "keywords": [
+                    [
+                        "expectoration",
+                        "crachats"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Expectoration, Crachats",
+                "stable": "2 heures maximum"
+            },
+            "81": {
+                "keywords": [
+                    [
+                        "electrophorese des proteines",
+                        "elp",
+                        "elpr",
+                        "edp",
+                        "electro",
+                        "proteinogramme"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Electrophor\u00e8se des prot\u00e9ines, ELP, ELPR, EDP, \u00e9lectro, proteinogramme",
+                "stable": "5 jours"
+            },
+            "82": {
+                "keywords": [
+                    [
+                        "ebv",
+                        "epstein barr virus",
+                        "remplace le mni"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "EBV, Epstein Barr virus, remplace le MNI",
+                "stable": "48 heures"
+            },
+            "83": {
+                "keywords": [
+                    [
+                        "eal",
+                        "exploration d`une anomalie lipidique",
+                        "bilan lipidique"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "EAL, Exploration d`une anomalie lipidique, bilan lipidique",
+                "stable": "24 heures"
+            },
+            "84": {
+                "keywords": [
+                    [
+                        "digoxine",
+                        "digoxinemie"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Digoxine, Digoxin\u00e9mie",
+                "stable": "8 heures"
+            },
+            "85": {
+                "keywords": [
+                    [
+                        "densite urinaire"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Densit\u00e9 urinaire",
+                "stable": ""
+            },
+            "86": {
+                "keywords": [
+                    [
+                        "ig e totales"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Ig E totales",
+                "stable": "7 jours"
+            },
+            "87": {
+                "keywords": [
+                    [
+                        "ig e specifiques unitaires"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Ig E sp\u00e9cifiques unitaires",
+                "stable": ""
+            },
+            "88": {
+                "keywords": [
+                    [
+                        "ig a",
+                        "immunoglobuline a"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Ig A, Immunoglobuline A",
+                "stable": "8 jours"
+            },
+            "89": {
+                "keywords": [
+                    [
+                        "hiv",
+                        "vih"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "HIV, VIH",
+                "stable": "7 jours"
+            },
+            "90": {
+                "keywords": [
+                    [
+                        "hiv technique rapide",
+                        "vih"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "HIV technique rapide, VIH",
+                "stable": "7 jours"
+            },
+            "91": {
+                "keywords": [
+                    [
+                        "hepatite c",
+                        "hcv",
+                        "hvc"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "H\u00e9patite C, HCV, HVC",
+                "stable": "8 heures"
+            },
+            "92": {
+                "keywords": [
+                    [
+                        "hepatite b",
+                        "hbv",
+                        "hvb"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "H\u00e9patite B (Ag HBs, AC Anti HBs, AC anti HBc totaux), HBV, HVB",
+                "stable": "8 heures"
+            },
+            "93": {
+                "keywords": [
+                    [
+                        "hepatite a",
+                        "havm",
+                        "hva"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "H\u00e9patite A (IgM, Ac totaux), HAVM, HVA",
+                "stable": "8 heures"
+            },
+            "94": {
+                "keywords": [
+                    [
+                        "hemoculture"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "H\u00e9moculture",
+                "stable": "Acheminer dans les 24 heures qui suivent le pr\u00e9l\u00e8vement \u00e0 temp\u00e9rature ambiante (sans les placer \u00e0 l`\u00e9tuve ou au r\u00e9frig\u00e9rateur)"
+            },
+            "95": {
+                "keywords": [
+                    [
+                        "hbaic",
+                        "hemoglobine glycosylee",
+                        "hemoglobine glyquee",
+                        "hbgly"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "HBAIC, H\u00e9moglobine glycosyl\u00e9e, H\u00e9moglobine glyqu\u00e9e, HBGLY",
+                "stable": "72 heures"
+            },
+            "96": {
+                "keywords": [
+                    [
+                        "haptoglobine",
+                        "hpt",
+                        "hapto"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Haptoglobine, HPT, Hapto",
+                "stable": "8 heures"
+            },
+            "97": {
+                "keywords": [
+                    [
+                        "groupe sanguin + phenotype",
+                        "groupe rh",
+                        "groupage sanguin aborh"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Groupe sanguin + ph\u00e9notype, Groupe RH, Groupage sanguin ABO-RH",
+                "stable": "24 heures, garder le pr\u00e9l\u00e8vement entre 2 et 8\u00b0C si d\u00e9lai plus long"
+            },
+            "98": {
+                "keywords": [
+                    [
+                        "glucose",
+                        "glycemie gonocoques recherche"
+                    ]
+                ],
+                "containers": [
+                    8
+                ],
+                "description": "Glucose, Glyc\u00e9mie Gonocoques - recherche",
+                "stable": "24 heures sur fluorure, 2 heures h\u00e9parine"
+            },
+            "99": {
+                "keywords": [
+                    [
+                        "mycoplasmes",
+                        "mycoplasma urogenitaux",
+                        "mcp",
+                        "inclus dans les pv si prescrit pvmc"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Mycoplasmes, Mycoplasma urog\u00e9nitaux, MCP, inclus dans les PV si prescrit PVMC",
+                "stable": "48 heures \u00e0 temp\u00e9rature ambiante dans le milieu de transport eSwab."
+            },
+            "100": {
+                "keywords": [
+                    [
+                        "microalbumine",
+                        "micrea",
+                        "microalbuminurie"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Microalbumine (urinaire), Micr\u00e9a, Microalbuminurie",
+                "stable": "7 jours"
+            },
+            "101": {
+                "keywords": [
+                    [
+                        "methemoglobine",
+                        "met hb"
+                    ]
+                ],
+                "containers": [
+                    3
+                ],
+                "description": "M\u00e9th\u00e9moglobine, Met Hb",
+                "stable": "8 heures"
+            },
+            "102": {
+                "keywords": [
+                    [
+                        "magnesium",
+                        "mg"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Magn\u00e9sium, Mg",
+                "stable": "8 heures"
+            },
+            "103": {
+                "keywords": [
+                    [
+                        "lymphocytes cd3cd4cd8"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Lymphocytes CD3-CD4-CD8",
+                "stable": ""
+            },
+            "104": {
+                "keywords": [
+                    [
+                        "lyme",
+                        "borreliose",
+                        "borrelia burgdorferi"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Lyme, Borreliose, Borrelia Burgdorferi",
+                "stable": "24 heures"
+            },
+            "105": {
+                "keywords": [
+                    [
+                        "lyme western blot"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Lyme - WESTERN BLOT",
+                "stable": ""
+            },
+            "106": {
+                "keywords": [
+                    [
+                        "lithium",
+                        "lithemie",
+                        "li"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Lithium, Lith\u00e9mie, Li",
+                "stable": "4 heures"
+            },
+            "107": {
+                "keywords": [
+                    [
+                        "lipase",
+                        "lipasemie"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Lipase, Lipas\u00e9mie",
+                "stable": "24 heures"
+            },
+            "108": {
+                "keywords": [
+                    [
+                        "lh",
+                        "hormone luteinisante"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "LH, Hormone Lut\u00e9inisante",
+                "stable": "72 heures"
+            },
+            "109": {
+                "keywords": [
+                    [
+                        "legionellose",
+                        "antigene legionelle urinaire"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Legionellose, Antig\u00e8ne Legionelle urinaire",
+                "stable": "24 heures"
+            },
+            "110": {
+                "keywords": [
+                    [
+                        "ldh",
+                        "lactate deshydrogenase"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "LDH, Lactate D\u00e9shydrog\u00e9nase",
+                "stable": "6 heures"
+            },
+            "111": {
+                "keywords": [
+                    [
+                        "lactate",
+                        "acide lactique"
+                    ]
+                ],
+                "containers": [
+                    8
+                ],
+                "description": "Lactate, Acide lactique",
+                "stable": "6 heures"
+            },
+            "112": {
+                "keywords": [
+                    [
+                        "immunotypage",
+                        "it",
+                        "immunofixation if",
+                        "immuno electrophorese iep"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Immunotypage, IT, immunofixation IF, immuno electrophor\u00e8se IEP",
+                "stable": "5 jours"
+            },
+            "113": {
+                "keywords": [
+                    [
+                        "ig m",
+                        "immunoglobuline m"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Ig M, Immunoglobuline M",
+                "stable": "8 jours"
+            },
+            "114": {
+                "keywords": [
+                    [
+                        "ig g",
+                        "immunoglobuline g"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Ig G, Immunoglobuline G",
+                "stable": "8 jours"
+            },
+            "115": {
+                "keywords": [
+                    [
+                        "plaquettes",
+                        "plaq",
+                        "thrombocytes",
+                        "p"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Plaquettes, Plaq, Thrombocytes, P (avec NF)",
+                "stable": "24 heures. Au-del\u00e0, diminution du taux."
+            },
+            "116": {
+                "keywords": [
+                    [
+                        "plaie",
+                        "pus",
+                        "escarre"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Plaie, pus, escarre",
+                "stable": "2 heures sur \u00e9couvillon sec, 24 heures sur \u00e9couvillons avec gel"
+            },
+            "117": {
+                "keywords": [
+                    [
+                        "phosphore",
+                        "phosphoremie",
+                        "p"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Phosphore, Phosphor\u00e9mie, P",
+                "stable": "6 heures"
+            },
+            "118": {
+                "keywords": [
+                    [
+                        "phosphore urinaire",
+                        "phosphaturie"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Phosphore urinaire, Phosphaturie",
+                "stable": "2 jours"
+            },
+            "119": {
+                "keywords": [
+                    [
+                        "phosphatases alcalines",
+                        "pal"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Phosphatases Alcalines, PAL",
+                "stable": "24 heures"
+            },
+            "120": {
+                "keywords": [
+                    [
+                        "phadiatop",
+                        "pha",
+                        "melange de pneumallergenes"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Phadiatop, PHA, M\u00e9lange de pneumallerg\u00e8nes",
+                "stable": ""
+            },
+            "121": {
+                "keywords": [
+                    [
+                        "parasitologie des selles pdf remplacee par ddi"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Parasitologie des selles PDF remplac\u00e9e par DDI",
+                "stable": "6 heures \u00e0 temp\u00e9rature ambiante, 12 heures entre 2 et 8\u00b0C"
+            },
+            "122": {
+                "keywords": [
+                    [
+                        "paludisme",
+                        "recherche de plasmodium",
+                        "palu",
+                        "goutte epaisse",
+                        "malaria"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Paludisme, Recherche de plasmodium, palu, goutte \u00e9paisse, Malaria",
+                "stable": "72 heures entre 2 et 8\u00b0C"
+            },
+            "123": {
+                "keywords": [
+                    [
+                        "osteocalcine"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Ost\u00e9ocalcine",
+                "stable": ""
+            },
+            "124": {
+                "keywords": [
+                    [
+                        "osmolarite urinaire"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Osmolarit\u00e9 urinaire",
+                "stable": ""
+            },
+            "125": {
+                "keywords": [
+                    [
+                        "osmolarite sanguine"
+                    ]
+                ],
+                "containers": [
+                    2,
+                    8
+                ],
+                "description": "Osmolarit\u00e9 sanguine",
+                "stable": ""
+            },
+            "126": {
+                "keywords": [
+                    [
+                        "orl",
+                        "prelevement de la sphere orl que ce soit au niveau gorge",
+                        "oreilles",
+                        "nez ou pharynx",
+                        "amygdales"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "ORL, pr\u00e9l\u00e8vement de la sph\u00e8re ORL que ce soit au niveau gorge, oreilles, nez ou pharynx, amygdales",
+                "stable": "2 heures sur \u00e9couvillon sec, 24 heures sur \u00e9couvillons avec gel, 48 heures sur eswab"
+            },
+            "127": {
+                "keywords": [
+                    [
+                        "oestradiol",
+                        "e2",
+                        "17 beta oestradiol"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Oestradiol, E2, 17 B\u00e9ta Oestradiol",
+                "stable": "24 heures"
+            },
+            "128": {
+                "keywords": [
+                    [
+                        "numeration formule",
+                        "nf",
+                        "nfs",
+                        "num",
+                        "nfp"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Num\u00e9ration Formule, NF, NFS, NUM, NFP",
+                "stable": "24 heures sauf VGM et CCMH 6h"
+            },
+            "129": {
+                "keywords": [
+                    [
+                        "nitrites",
+                        "nit"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Nitrites, NIT",
+                "stable": "24 heures sur urines r\u00e9frig\u00e9r\u00e9s"
+            },
+            "130": {
+                "keywords": [
+                    [
+                        "recherche de cellules sanguines particulieres"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Recherche de cellules sanguines particuli\u00e8res",
+                "stable": "6 heures"
+            },
+            "131": {
+                "keywords": [
+                    [
+                        "rai",
+                        "coombs indirect",
+                        "agglutinines irregulieres"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "RAI, Coombs indirect, Agglutinines irr\u00e9guli\u00e8res",
+                "stable": "24 heures, garder le pr\u00e9l\u00e8vement entre 2 et 8\u00b0C si d\u00e9lai plus long"
+            },
+            "132": {
+                "keywords": [
+                    [
+                        "pth",
+                        "parathormone",
+                        "pth intacte"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "PTH, Parathormone, PTH intacte",
+                "stable": "6 heures"
+            },
+            "133": {
+                "keywords": [
+                    [
+                        "psa",
+                        "psal",
+                        "antigene specifique prostatique"
+                    ]
+                ],
+                "containers": [
+                    2,
+                    4
+                ],
+                "description": "PSA, PSAL, Antig\u00e8ne sp\u00e9cifique prostatique",
+                "stable": "4 jours"
+            },
+            "134": {
+                "keywords": [
+                    [
+                        "proteines",
+                        "prot",
+                        "protidemie",
+                        "proteinemie",
+                        "proteines totales"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Prot\u00e9ines, Prot, Protid\u00e9mie, Prot\u00e9in\u00e9mie, Prot\u00e9ines totales",
+                "stable": "24 heures"
+            },
+            "135": {
+                "keywords": [
+                    [
+                        "proteines urinaires",
+                        "proteinurie",
+                        "a",
+                        "albuminurie",
+                        "inclus dans la ccbu"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Prot\u00e9ines urinaires, Prot\u00e9inurie, A, Albuminurie, inclus dans la CCBU",
+                "stable": "24 heures , 7 jours entre 2 et 8\u00b0C"
+            },
+            "136": {
+                "keywords": [
+                    [
+                        "prolactine",
+                        "prol",
+                        "prl"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Prolactine, Prol, PRL",
+                "stable": "2 jours"
+            },
+            "137": {
+                "keywords": [
+                    [
+                        "progesterone",
+                        "pg"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Progest\u00e9rone, Pg",
+                "stable": "7 jours"
+            },
+            "138": {
+                "keywords": [
+                    [
+                        "procalcitonine",
+                        "pct"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Procalcitonine, PCT",
+                "stable": "24 heures"
+            },
+            "139": {
+                "keywords": [
+                    [
+                        "pro bnp",
+                        "ntpro bnp",
+                        "bnp"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Pro BNP, NT-pro BNP, BNP",
+                "stable": "24 heures"
+            },
+            "140": {
+                "keywords": [
+                    [
+                        "prelevement vaginal",
+                        "pv",
+                        "bacterio vaginale"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Pr\u00e9l\u00e8vement vaginal, PV, bact\u00e9rio vaginale",
+                "stable": "24 heures sur \u00e9couvillon eSwab"
+            },
+            "141": {
+                "keywords": [
+                    [
+                        "prelevement uretral",
+                        "pu",
+                        "bacteriologie uretrale"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Pr\u00e9l\u00e8vement ur\u00e9tral, PU, bact\u00e9riologie ur\u00e9trale",
+                "stable": "24 heures sur \u00e9couvillon eSwab"
+            },
+            "142": {
+                "keywords": [
+                    [
+                        "prealbumine",
+                        "prealb"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Pr\u00e9albumine, Pr\u00e9alb",
+                "stable": "24 heures"
+            },
+            "143": {
+                "keywords": [
+                    [
+                        "potassium",
+                        "k",
+                        "kaliemie",
+                        "inclus dans le ionogramme"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Potassium, K, Kali\u00e9mie, inclus dans le ionogramme",
+                "stable": "6 heures"
+            },
+            "144": {
+                "keywords": [
+                    [
+                        "potassium urinaire",
+                        "ku",
+                        "kaliurie",
+                        "inclus dans le ionogramme urinaire"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Potassium urinaire, KU, Kaliurie, inclus dans le ionogramme urinaire",
+                "stable": "45 jours"
+            },
+            "145": {
+                "keywords": [
+                    [
+                        "tegretol",
+                        "carbamazepine"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Tegretol, Carbamaz\u00e9pine",
+                "stable": "2 jours"
+            },
+            "146": {
+                "keywords": [
+                    [
+                        "tca/tck",
+                        "temps de cephaline active"
+                    ]
+                ],
+                "containers": [
+                    6
+                ],
+                "description": "TCA/TCK, Temps de Cephaline Activ\u00e9",
+                "stable": "12 heures pour les patients sous h\u00e9parine, stabilit\u00e9 \u00e0 2 heures"
+            },
+            "147": {
+                "keywords": [
+                    [
+                        "t4 libre",
+                        "ft4",
+                        "free t4",
+                        "t4l"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "T4 Libre, FT4, Free T4, T4L",
+                "stable": "7 jours"
+            },
+            "148": {
+                "keywords": [
+                    [
+                        "t3 libre",
+                        "ft3",
+                        "free t3",
+                        "t3l"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "T3 Libre, FT3, Free T3, T3L",
+                "stable": "7 jours"
+            },
+            "149": {
+                "keywords": [
+                    [
+                        "syphilis depistage",
+                        "bw",
+                        "vdrl",
+                        "tpha"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Syphilis d\u00e9pistage, BW (Bordet Wassermann), VDRL, TPHA",
+                "stable": "24 heures"
+            },
+            "150": {
+                "keywords": [
+                    [
+                        "spermoculture"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Spermoculture",
+                "stable": "2 heures maximum"
+            },
+            "151": {
+                "keywords": [
+                    [
+                        "sodium",
+                        "na",
+                        "natremie",
+                        "inclus dans le ionogramme"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Sodium, NA, Natr\u00e9mie, inclus dans le ionogramme",
+                "stable": "24 heures"
+            },
+            "152": {
+                "keywords": [
+                    [
+                        "sodium urinaire",
+                        "nau",
+                        "inclus dans le ionogramme urinaire"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Sodium urinaire, NAU, inclus dans le ionogramme urinaire",
+                "stable": "45 jours"
+            },
+            "153": {
+                "keywords": [
+                    [
+                        "sdha",
+                        "sulfate dehydroepiandrosterone ou sdhea"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "SDHA, Sulfate d\u00e9hydro\u00e9piandrost\u00e9rone ou SDHEA",
+                "stable": ""
+            },
+            "154": {
+                "keywords": [
+                    [
+                        "scotch test anal",
+                        "recherche d'oxyures"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Scotch test anal, Recherche d\u2019oxyures",
+                "stable": "7 jours"
+            },
+            "155": {
+                "keywords": [
+                    [
+                        "sang dans les selles",
+                        "hemoccult"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Sang dans les selles, H\u00e9moccult",
+                "stable": "Apporter le pr\u00e9l\u00e8vement le jour m\u00eame, les selles \u00e9mises la nuit peuvent \u00eatre conserv\u00e9es au r\u00e9frig\u00e9rateur jusqu`au lendemain."
+            },
+            "156": {
+                "keywords": [
+                    [
+                        "rubeole",
+                        "rub"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Rub\u00e9ole, Rub",
+                "stable": "72 heures"
+            },
+            "157": {
+                "keywords": [
+                    [
+                        "rotavirus / adenovirus",
+                        "recherche de virus dans les selles"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Rotavirus / Ad\u00e9novirus, Recherche de virus dans les selles",
+                "stable": "6 heures \u00e0 temp\u00e9rature ambiante ou 72 heures entre 2 et 8\u00b0C"
+            },
+            "158": {
+                "keywords": [
+                    [
+                        "reticulocytes",
+                        "ret",
+                        "retic"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "R\u00e9ticulocytes, Ret, R\u00e9tic",
+                "stable": "24 heures"
+            },
+            "159": {
+                "keywords": [
+                    [
+                        "reserve alcaline",
+                        "ra",
+                        "bicarbonates",
+                        "eco2"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "R\u00e9serve Alcaline, RA, Bicarbonates, ECO2",
+                "stable": "24 heures"
+            },
+            "160": {
+                "keywords": [
+                    [
+                        "recherches particulieres dans les urines"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Recherches particuli\u00e8res dans les urines (SPB, ac\u00e9tone\u2026)",
+                "stable": "2 heures, 24 heures si l`\u00e9chantillon est conserv\u00e9 \u00e0 entre 2 et 8\u00b0C"
+            },
+            "161": {
+                "keywords": [
+                    [
+                        "virus grippe",
+                        "grippe",
+                        "influenza virus"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "VIRUS Grippe, Grippe, Influenza virus",
+                "stable": "24 heures entre 2 et 8\u00b0C"
+            },
+            "162": {
+                "keywords": [
+                    [
+                        "vgm",
+                        "volume globulaire moyen"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "VGM, Volume globulaire moyen",
+                "stable": "6 heures"
+            },
+            "163": {
+                "keywords": [
+                    [
+                        "uree",
+                        "uremie",
+                        "azotemie"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Ur\u00e9e, Ur\u00e9mie, Azot\u00e9mie",
+                "stable": "24 heures"
+            },
+            "164": {
+                "keywords": [
+                    [
+                        "uree urinaire",
+                        "azoturie"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Ur\u00e9e urinaire, Azoturie",
+                "stable": "2 jours"
+            },
+            "165": {
+                "keywords": [
+                    [
+                        "tsh",
+                        "thyreostimuline",
+                        "tshus"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "TSH, Thyr\u00e9ostimuline, TSHus",
+                "stable": "7 jours"
+            },
+            "166": {
+                "keywords": [
+                    [
+                        "troponine",
+                        "tropo t"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Troponine, Tropo T",
+                "stable": "8 heures"
+            },
+            "167": {
+                "keywords": [
+                    [
+                        "trophatop enfant"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Trophatop enfant",
+                "stable": ""
+            },
+            "168": {
+                "keywords": [
+                    [
+                        "trophatop adulte"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Trophatop adulte",
+                "stable": ""
+            },
+            "169": {
+                "keywords": [
+                    [
+                        "trophatop"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Trophatop",
+                "stable": ""
+            },
+            "170": {
+                "keywords": [
+                    [
+                        "triglycerides",
+                        "tg",
+                        "trig",
+                        "inclu dans l`eal"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Triglyc\u00e9rides, TG, Trig, inclu dans l`EAL",
+                "stable": "24 heures"
+            },
+            "171": {
+                "keywords": [
+                    [
+                        "transferrine",
+                        "trf",
+                        "siderophylline"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Transferrine, TRF, sid\u00e9rophylline",
+                "stable": "24 heures"
+            },
+            "172": {
+                "keywords": [
+                    [
+                        "tp inr",
+                        "temps de quick"
+                    ]
+                ],
+                "containers": [
+                    6
+                ],
+                "description": "TP - INR, temps de Quick",
+                "stable": "12 heures"
+            },
+            "173": {
+                "keywords": [
+                    [
+                        "toxoplasmose",
+                        "toxo"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Toxoplasmose (IgG, IgM), Toxo",
+                "stable": "72 heures"
+            },
+            "174": {
+                "keywords": [
+                    [
+                        "toxiques urinaires"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "Toxiques urinaires",
+                "stable": "48 heures entre 2 et 8\u00b0C"
+            },
+            "175": {
+                "keywords": [
+                    [
+                        "testosterone totale",
+                        "testo"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Testost\u00e9rone totale, Testo",
+                "stable": "24 heures"
+            },
+            "176": {
+                "keywords": [
+                    [
+                        "test de kleihauer",
+                        "tkl",
+                        "recherche d`hematies foetales"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Test de Kleihauer, TKL, Recherche d`h\u00e9maties f\u0153tales",
+                "stable": "48 heures"
+            },
+            "177": {
+                "keywords": [
+                    [
+                        "vrs",
+                        "virus respiratoire syncytial"
+                    ]
+                ],
+                "containers": [
+                    -1
+                ],
+                "description": "VRS, Virus Respiratoire Syncytial",
+                "stable": "4 heures \u00e0 temp\u00e9rature ambiante, 24 heures si \u00e9chantillon conserv\u00e9 entre 2 et 8\u00b0C."
+            },
+            "178": {
+                "keywords": [
+                    [
+                        "vitesse de sedimentation",
+                        "vs"
+                    ]
+                ],
+                "containers": [
+                    7
+                ],
+                "description": "Vitesse de s\u00e9dimentation, VS",
+                "stable": "8 heures"
+            },
+            "179": {
+                "keywords": [
+                    [
+                        "vitamine d",
+                        "25 hydroxy vitamine d",
+                        "25ohd",
+                        "vitamine d3"
+                    ]
+                ],
+                "containers": [
+                    4
+                ],
+                "description": "Vitamine D, 25 Hydroxy Vitamine D, 25-OH-D, Vitamine D3",
+                "stable": "24 heures"
+            },
+            "180": {
+                "keywords": [
+                    [
+                        "vitamine b12",
+                        "b12"
+                    ]
+                ],
+                "containers": [
+                    2
+                ],
+                "description": "Vitamine B12, B12",
+                "stable": "8 heures"
+            }
+        }
+    }
 }
