@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "version": 1,
+        "version": 2,
         "message": "Hello world!"
     },
     "index": {
@@ -26,13 +26,13 @@
             },
             "2": {
                 "color": "VERT_CLAIR",
-                "displayName": "tube h\u00e9parine avec gel",
+                "displayName": "tube héparine avec gel",
                 "imageId": "imageIdHere",
                 "order": 2
             },
             "3": {
                 "color": "VERT_FONCE",
-                "displayName": "tube h\u00e9parine sans gel",
+                "displayName": "tube héparine sans gel",
                 "imageId": "imageIdHere",
                 "order": 3
             },
@@ -68,7 +68,7 @@
             },
             "9": {
                 "color": "NOIR",
-                "displayName": "tube \u00e0 citrate de sodium",
+                "displayName": "tube à citrate de sodium",
                 "imageId": "imageIdHere",
                 "order": 9
             }
@@ -84,7 +84,7 @@
                 "containers": [
                     4
                 ],
-                "description": "AMH, Hormone anti-mull\u00e9rienne",
+                "description": "AMH, Hormone anti-mullérienne",
                 "stable": ""
             },
             "2": {
@@ -96,7 +96,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Alcool \u00e9thylique",
+                "description": "Alcool éthylique",
                 "stable": "24 heures"
             },
             "3": {
@@ -124,7 +124,7 @@
                 "containers": [
                     2
                 ],
-                "description": "ALAT, SGPT, TGP, Alanine Amino Transf\u00e9rase. Transaminase",
+                "description": "ALAT, SGPT, TGP, Alanine Amino Transférase. Transaminase",
                 "stable": "24 heures"
             },
             "5": {
@@ -138,7 +138,7 @@
                     2,
                     4
                 ],
-                "description": "AFP, Alpha Foeto Prot\u00e9ine",
+                "description": "AFP, Alpha Foeto Protéine",
                 "stable": "7 jours"
             },
             "6": {
@@ -153,7 +153,7 @@
                     -1
                 ],
                 "description": "Addis, HLM, compte d`Addis",
-                "stable": "2 heures, 24 heures si l`\u00e9chantillon est conserv\u00e9 entre 2 et 8\u00b0C"
+                "stable": "2 heures, 24 heures si l`échantillon est conservé entre 2 et 8°C"
             },
             "7": {
                 "keywords": [
@@ -166,7 +166,7 @@
                 "containers": [
                     7
                 ],
-                "description": "ACTH, Corticotrophine, Adr\u00e9nocorticotrophine",
+                "description": "ACTH, Corticotrophine, Adrénocorticotrophine",
                 "stable": "4 heures"
             },
             "8": {
@@ -180,7 +180,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Acide valproique, d\u00e9pakine, valproate",
+                "description": "Acide valproique, dépakine, valproate",
                 "stable": "2 jours"
             },
             "9": {
@@ -193,7 +193,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Acide urique, uric\u00e9mie",
+                "description": "Acide urique, uricémie",
                 "stable": "24 heures"
             },
             "10": {
@@ -208,7 +208,7 @@
                     -1
                 ],
                 "description": "Acide urique urinaire, uricurie, uraturie",
-                "stable": "4 jours \u00e0 temp\u00e9rature ambiante exclusivement"
+                "stable": "4 jours à température ambiante exclusivement"
             },
             "11": {
                 "keywords": [
@@ -221,7 +221,7 @@
                     2,
                     4
                 ],
-                "description": "ACE, Antig\u00e8ne Carcino Embryonnaire",
+                "description": "ACE, Antigène Carcino Embryonnaire",
                 "stable": "7 jours"
             },
             "12": {
@@ -234,7 +234,7 @@
                 "containers": [
                     4
                 ],
-                "description": "ACAN (d\u00e9pistage), Anticorps anti-nucl\u00e9aire",
+                "description": "ACAN (dépistage), Anticorps anti-nucléaire",
                 "stable": ""
             },
             "13": {
@@ -247,7 +247,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Anticorps anti MPO (p.ANCA), Anticorps antimy\u00e9loperoxydase",
+                "description": "Anticorps anti MPO (p.ANCA), Anticorps antimyéloperoxydase",
                 "stable": ""
             },
             "14": {
@@ -274,7 +274,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Anticorps anti LKM, Anticorps anti-microsome du foie et du rein - LKM1, Anticorps anti-r\u00e9ticulum endoplasmique",
+                "description": "Anticorps anti LKM, Anticorps anti-microsome du foie et du rein - LKM1, Anticorps anti-réticulum endoplasmique",
                 "stable": ""
             },
             "16": {
@@ -299,7 +299,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Anticorps anti Facteur Intrins\u00e8que, Anticorps anti FI",
+                "description": "Anticorps anti Facteur Intrinsèque, Anticorps anti FI",
                 "stable": ""
             },
             "18": {
@@ -312,7 +312,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Anticorps anti ENA (d\u00e9pistage), Anticorps anti-nucl\u00e9aires solubles",
+                "description": "Anticorps anti ENA (dépistage), Anticorps anti-nucléaires solubles",
                 "stable": ""
             },
             "19": {
@@ -325,7 +325,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Anticorps anti DNA, DNA Natif \u2013 AC anti ADN",
+                "description": "Anticorps anti DNA, DNA Natif – AC anti ADN",
                 "stable": ""
             },
             "20": {
@@ -377,7 +377,7 @@
                 "containers": [
                     6
                 ],
-                "description": "Anti Xa, Activit\u00e9 anti Xa",
+                "description": "Anti Xa, Activité anti Xa",
                 "stable": "2 heures"
             },
             "24": {
@@ -417,7 +417,7 @@
                     7
                 ],
                 "description": "Anti D, Anti D passif",
-                "stable": "24 heures, garder le pr\u00e9l\u00e8vement entre 2 et 8\u00b0C si d\u00e9lai plus long"
+                "stable": "24 heures, garder le prélèvement entre 2 et 8°C si délai plus long"
             },
             "27": {
                 "keywords": [
@@ -429,7 +429,7 @@
                 "containers": [
                     7
                 ],
-                "description": "Ammoni\u00e9mie, NH3",
+                "description": "Ammoniémie, NH3",
                 "stable": "Le plus RAPIDEMENT possible (dosage dans les 15 min) Transporter dans la glace."
             },
             "28": {
@@ -481,7 +481,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Bilirubine totale et fractions, Bilirubin\u00e9mie, BT, BT + BC",
+                "description": "Bilirubine totale et fractions, Bilirubinémie, BT, BT + BC",
                 "stable": "24 heures"
             },
             "32": {
@@ -495,7 +495,7 @@
                     2,
                     4
                 ],
-                "description": "B\u00e9ta 2 microglobuline sanguine, B2M",
+                "description": "Béta 2 microglobuline sanguine, B2M",
                 "stable": "24 heures"
             },
             "33": {
@@ -510,7 +510,7 @@
                     2,
                     4
                 ],
-                "description": "B HCG, Test de grossesse, Gonadotrophine Chorionique B\u00e9ta",
+                "description": "B HCG, Test de grossesse, Gonadotrophine Chorionique Béta",
                 "stable": "48 heures"
             },
             "34": {
@@ -536,7 +536,7 @@
                 "containers": [
                     4
                 ],
-                "description": "ASD - Antistreptodornase, S\u00e9rologies streptocoques",
+                "description": "ASD - Antistreptodornase, Sérologies streptocoques",
                 "stable": "48 heures"
             },
             "36": {
@@ -552,7 +552,7 @@
                 "containers": [
                     2
                 ],
-                "description": "ASAT, TGO, SGOT, Aspartate Amino Transf\u00e9rase, Transaminase",
+                "description": "ASAT, TGO, SGOT, Aspartate Amino Transférase, Transaminase",
                 "stable": "24 heures"
             },
             "37": {
@@ -564,7 +564,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Antig\u00e8ne anti Hbe",
+                "description": "Antigène anti Hbe",
                 "stable": ""
             },
             "38": {
@@ -577,7 +577,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Anticorps anti-r\u00e9cepteur de la TSH, anticorps anti-r\u00e9cepteur de la thyr\u00e9ostimuline (TRAK)",
+                "description": "Anticorps anti-récepteur de la TSH, anticorps anti-récepteur de la thyréostimuline (TRAK)",
                 "stable": ""
             },
             "39": {
@@ -602,7 +602,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Anticorps anti PR3 (c.ANCA), Anticorps antiprot\u00e9inase 3",
+                "description": "Anticorps anti PR3 (c.ANCA), Anticorps antiprotéinase 3",
                 "stable": ""
             },
             "41": {
@@ -614,7 +614,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Anticorps anti nucl\u00e9aire solubles",
+                "description": "Anticorps anti nucléaire solubles",
                 "stable": ""
             },
             "42": {
@@ -628,7 +628,7 @@
                     -1
                 ],
                 "description": "Clostridium difficile, Recherche de toxines A et B de C. Difficile",
-                "stable": "6 heures \u00e0 temp\u00e9rature ambiante, 72 heures si \u00e9chantillon r\u00e9frig\u00e9r\u00e9"
+                "stable": "6 heures à température ambiante, 72 heures si échantillon réfrigéré"
             },
             "43": {
                 "keywords": [
@@ -641,7 +641,7 @@
                 "containers": [
                     2
                 ],
-                "description": "CK, Cr\u00e9atine Kinase, Cr\u00e9atine PhosphoKinase ou CPK",
+                "description": "CK, Créatine Kinase, Créatine PhosphoKinase ou CPK",
                 "stable": "24 heures"
             },
             "44": {
@@ -657,7 +657,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Cholest\u00e9rol et fractions HDL -LDL, Bilan lipidique, EAL, Cholest\u00e9rol\u00e9mie, CT",
+                "description": "Cholestérol et fractions HDL -LDL, Bilan lipidique, EAL, Cholestérolémie, CT",
                 "stable": "24 heures"
             },
             "45": {
@@ -672,7 +672,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Chlore, CL-, Chlor\u00e9mie, Chlorure",
+                "description": "Chlore, CL-, Chlorémie, Chlorure",
                 "stable": "24 heures"
             },
             "46": {
@@ -684,7 +684,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Chlamydiae trachomatis - s\u00e9rologie",
+                "description": "Chlamydiae trachomatis - sérologie",
                 "stable": "3 jours"
             },
             "47": {
@@ -720,7 +720,7 @@
                 "containers": [
                     7
                 ],
-                "description": "Charge virale H\u00e9patite C",
+                "description": "Charge virale Hépatite C",
                 "stable": ""
             },
             "50": {
@@ -732,7 +732,7 @@
                 "containers": [
                     7
                 ],
-                "description": "Charge virale H\u00e9patite B",
+                "description": "Charge virale Hépatite B",
                 "stable": ""
             },
             "51": {
@@ -746,7 +746,7 @@
                 "containers": [
                     4
                 ],
-                "description": "CDT, Carboxy D\u00e9ficient Transferrine,TCD",
+                "description": "CDT, Carboxy Déficient Transferrine,TCD",
                 "stable": "3 jours"
             },
             "52": {
@@ -759,7 +759,7 @@
                 "containers": [
                     3
                 ],
-                "description": "Carboxyh\u00e9moglobine, monoxyde de carbone",
+                "description": "Carboxyhémoglobine, monoxyde de carbone",
                 "stable": "8 heures"
             },
             "53": {
@@ -772,7 +772,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Calcium, calc\u00e9mie",
+                "description": "Calcium, calcémie",
                 "stable": "24 heures"
             },
             "54": {
@@ -786,7 +786,7 @@
                     -1
                 ],
                 "description": "Calcium urinaire, Calciurie",
-                "stable": "4 jours entre 4 et 8\u00b0C, 2 jours \u00e0 temp\u00e9rature ambiante"
+                "stable": "4 jours entre 4 et 8°C, 2 jours à température ambiante"
             },
             "55": {
                 "keywords": [
@@ -798,7 +798,7 @@
                 "containers": [
                     3
                 ],
-                "description": "Calcium ionis\u00e9, CAIO",
+                "description": "Calcium ionisé, CAIO",
                 "stable": "6 heures"
             },
             "56": {
@@ -836,7 +836,7 @@
                 "containers": [
                     6
                 ],
-                "description": "D-Dim\u00e8res",
+                "description": "D-Dimères",
                 "stable": "12 heures"
             },
             "59": {
@@ -849,7 +849,7 @@
                     -1
                 ],
                 "description": "Cytologies nasale et lacrymale",
-                "stable": "2 heures \u00e9couvillon SANS gel"
+                "stable": "2 heures écouvillon SANS gel"
             },
             "60": {
                 "keywords": [
@@ -862,7 +862,7 @@
                     -1
                 ],
                 "description": "Cytologie urinaire, Cyto",
-                "stable": "6 heures, 12 heures si l\u2019\u00e9chantillon est conserv\u00e9 \u00e0 entre 2 et 8\u00b0C, 24 heures sur tube avec conservateur"
+                "stable": "6 heures, 12 heures si l’échantillon est conservé à entre 2 et 8°C, 24 heures sur tube avec conservateur"
             },
             "61": {
                 "keywords": [
@@ -876,8 +876,8 @@
                 "containers": [
                     -1
                 ],
-                "description": "Cytobact\u00e9riologie des urines, CBU, ECBU, CCBU (CBU + dosage d`albumine et de Sucre)",
-                "stable": "Acheminement dans les 2 heures qui suivent le recueil \u00e0 temp\u00e9rature ambiante ou dans les 12 heures si l`\u00e9chantillon est conserv\u00e9 \u00e0 +4\u00b0C. Pour allonger le temps de conservation jusqu`\u00e0 24h, l`urine doit \u00eatre transf\u00e9r\u00e9e dans le tube avec conservateur"
+                "description": "Cytobactériologie des urines, CBU, ECBU, CCBU (CBU + dosage d`albumine et de Sucre)",
+                "stable": "Acheminement dans les 2 heures qui suivent le recueil à température ambiante ou dans les 12 heures si l`échantillon est conservé à +4°C. Pour allonger le temps de conservation jusqu`à 24h, l`urine doit être transférée dans le tube avec conservateur"
             },
             "62": {
                 "keywords": [
@@ -889,7 +889,7 @@
                 "containers": [
                     4
                 ],
-                "description": "CYFRA 21, fragment de cytok\u00e9ratine 19",
+                "description": "CYFRA 21, fragment de cytokératine 19",
                 "stable": ""
             },
             "63": {
@@ -905,7 +905,7 @@
                     2,
                     7
                 ],
-                "description": "CRP, Prot\u00e9ine C R\u00e9active Ultra sensible, C R\u00e9active Protein CTX, Cross laps",
+                "description": "CRP, Protéine C Réactive Ultra sensible, C Réactive Protein CTX, Cross laps",
                 "stable": "24 heures"
             },
             "64": {
@@ -922,7 +922,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Cr\u00e9atinine, Cr\u00e9atinin\u00e9mie, Clairance \u00e0 la cr\u00e9atinine, Cr\u00e9at, MDRD, CKD",
+                "description": "Créatinine, Créatininémie, Clairance à la créatinine, Créat, MDRD, CKD",
                 "stable": "24 heures"
             },
             "65": {
@@ -936,7 +936,7 @@
                 "containers": [
                     -1
                 ],
-                "description": "Cr\u00e9atinine urinaire, Cr\u00e9atininurie, cr\u00e9at urinaire",
+                "description": "Créatinine urinaire, Créatininurie, créat urinaire",
                 "stable": "2 jours"
             },
             "66": {
@@ -962,7 +962,7 @@
                 "containers": [
                     -1
                 ],
-                "description": "Coproculture, examen cytobact\u00e9riologique des selles, copro.",
+                "description": "Coproculture, examen cytobactériologique des selles, copro.",
                 "stable": "2 heures, pour allonger le temps utiliser le milieu de transport FecalSwab - voir annexe"
             },
             "68": {
@@ -976,8 +976,8 @@
                 "containers": [
                     7
                 ],
-                "description": "Coombs direct, test \u00e0 l`antiglobuline, COOMBS",
-                "stable": "24 heures, garder le pr\u00e9l\u00e8vement entre 2 et 8\u00b0C si d\u00e9lai plus long"
+                "description": "Coombs direct, test à l`antiglobuline, COOMBS",
+                "stable": "24 heures, garder le prélèvement entre 2 et 8°C si délai plus long"
             },
             "69": {
                 "keywords": [
@@ -990,7 +990,7 @@
                 "containers": [
                     4
                 ],
-                "description": "CMV (IgG et IgM), Cytom\u00e9galovirus IgG IgM, CMV",
+                "description": "CMV (IgG et IgM), Cytomégalovirus IgG IgM, CMV",
                 "stable": "24 heures"
             },
             "70": {
@@ -1018,7 +1018,7 @@
                 "containers": [
                     2
                 ],
-                "description": "GGT, Gamma-glutamyltransf\u00e9rase",
+                "description": "GGT, Gamma-glutamyltransférase",
                 "stable": "24 heures"
             },
             "72": {
@@ -1031,7 +1031,7 @@
                     -1
                 ],
                 "description": "Gaz du sang",
-                "stable": "30 min, 1 heure si conserv\u00e9 dans la glace fondue"
+                "stable": "30 min, 1 heure si conservé dans la glace fondue"
             },
             "73": {
                 "keywords": [
@@ -1057,7 +1057,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Folates s\u00e9riques, Acide folique, Vitamine B9",
+                "description": "Folates sériques, Acide folique, Vitamine B9",
                 "stable": "6 heures"
             },
             "75": {
@@ -1070,7 +1070,7 @@
                 "containers": [
                     6
                 ],
-                "description": "Fibrinog\u00e8ne, Fibrine",
+                "description": "Fibrinogène, Fibrine",
                 "stable": "24 heures"
             },
             "76": {
@@ -1084,7 +1084,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Ferritine, FERRI, R\u00e9serve en Fer",
+                "description": "Ferritine, FERRI, Réserve en Fer",
                 "stable": "24 heures"
             },
             "77": {
@@ -1097,7 +1097,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Fer, sid\u00e9r\u00e9mie",
+                "description": "Fer, sidérémie",
                 "stable": "24 heures"
             },
             "78": {
@@ -1111,7 +1111,7 @@
                 "containers": [
                     6
                 ],
-                "description": "Facteur V, Proacc\u00e9l\u00e9rine, Cofacteur du complexe Prothrombine",
+                "description": "Facteur V, Proaccélérine, Cofacteur du complexe Prothrombine",
                 "stable": "4 heures"
             },
             "79": {
@@ -1126,7 +1126,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Facteur Rhumato\u00efde, FR, latex, Waaler Rose",
+                "description": "Facteur Rhumatoïde, FR, latex, Waaler Rose",
                 "stable": "6 heures"
             },
             "80": {
@@ -1156,7 +1156,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Electrophor\u00e8se des prot\u00e9ines, ELP, ELPR, EDP, \u00e9lectro, proteinogramme",
+                "description": "Electrophorèse des protéines, ELP, ELPR, EDP, électro, proteinogramme",
                 "stable": "5 jours"
             },
             "82": {
@@ -1197,7 +1197,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Digoxine, Digoxin\u00e9mie",
+                "description": "Digoxine, Digoxinémie",
                 "stable": "8 heures"
             },
             "85": {
@@ -1209,7 +1209,7 @@
                 "containers": [
                     -1
                 ],
-                "description": "Densit\u00e9 urinaire",
+                "description": "Densité urinaire",
                 "stable": ""
             },
             "86": {
@@ -1233,7 +1233,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Ig E sp\u00e9cifiques unitaires",
+                "description": "Ig E spécifiques unitaires",
                 "stable": ""
             },
             "88": {
@@ -1286,7 +1286,7 @@
                 "containers": [
                     4
                 ],
-                "description": "H\u00e9patite C, HCV, HVC",
+                "description": "Hépatite C, HCV, HVC",
                 "stable": "8 heures"
             },
             "92": {
@@ -1300,7 +1300,7 @@
                 "containers": [
                     4
                 ],
-                "description": "H\u00e9patite B (Ag HBs, AC Anti HBs, AC anti HBc totaux), HBV, HVB",
+                "description": "Hépatite B (Ag HBs, AC Anti HBs, AC anti HBc totaux), HBV, HVB",
                 "stable": "8 heures"
             },
             "93": {
@@ -1314,7 +1314,7 @@
                 "containers": [
                     4
                 ],
-                "description": "H\u00e9patite A (IgM, Ac totaux), HAVM, HVA",
+                "description": "Hépatite A (IgM, Ac totaux), HAVM, HVA",
                 "stable": "8 heures"
             },
             "94": {
@@ -1326,8 +1326,8 @@
                 "containers": [
                     -1
                 ],
-                "description": "H\u00e9moculture",
-                "stable": "Acheminer dans les 24 heures qui suivent le pr\u00e9l\u00e8vement \u00e0 temp\u00e9rature ambiante (sans les placer \u00e0 l`\u00e9tuve ou au r\u00e9frig\u00e9rateur)"
+                "description": "Hémoculture",
+                "stable": "Acheminer dans les 24 heures qui suivent le prélèvement à température ambiante (sans les placer à l`étuve ou au réfrigérateur)"
             },
             "95": {
                 "keywords": [
@@ -1341,7 +1341,7 @@
                 "containers": [
                     7
                 ],
-                "description": "HBAIC, H\u00e9moglobine glycosyl\u00e9e, H\u00e9moglobine glyqu\u00e9e, HBGLY",
+                "description": "HBAIC, Hémoglobine glycosylée, Hémoglobine glyquée, HBGLY",
                 "stable": "72 heures"
             },
             "96": {
@@ -1369,8 +1369,8 @@
                 "containers": [
                     7
                 ],
-                "description": "Groupe sanguin + ph\u00e9notype, Groupe RH, Groupage sanguin ABO-RH",
-                "stable": "24 heures, garder le pr\u00e9l\u00e8vement entre 2 et 8\u00b0C si d\u00e9lai plus long"
+                "description": "Groupe sanguin + phénotype, Groupe RH, Groupage sanguin ABO-RH",
+                "stable": "24 heures, garder le prélèvement entre 2 et 8°C si délai plus long"
             },
             "98": {
                 "keywords": [
@@ -1382,8 +1382,8 @@
                 "containers": [
                     8
                 ],
-                "description": "Glucose, Glyc\u00e9mie Gonocoques - recherche",
-                "stable": "24 heures sur fluorure, 2 heures h\u00e9parine"
+                "description": "Glucose, Glycémie Gonocoques - recherche",
+                "stable": "24 heures sur fluorure, 2 heures héparine"
             },
             "99": {
                 "keywords": [
@@ -1397,8 +1397,8 @@
                 "containers": [
                     -1
                 ],
-                "description": "Mycoplasmes, Mycoplasma urog\u00e9nitaux, MCP, inclus dans les PV si prescrit PVMC",
-                "stable": "48 heures \u00e0 temp\u00e9rature ambiante dans le milieu de transport eSwab."
+                "description": "Mycoplasmes, Mycoplasma urogénitaux, MCP, inclus dans les PV si prescrit PVMC",
+                "stable": "48 heures à température ambiante dans le milieu de transport eSwab."
             },
             "100": {
                 "keywords": [
@@ -1411,7 +1411,7 @@
                 "containers": [
                     -1
                 ],
-                "description": "Microalbumine (urinaire), Micr\u00e9a, Microalbuminurie",
+                "description": "Microalbumine (urinaire), Micréa, Microalbuminurie",
                 "stable": "7 jours"
             },
             "101": {
@@ -1424,7 +1424,7 @@
                 "containers": [
                     3
                 ],
-                "description": "M\u00e9th\u00e9moglobine, Met Hb",
+                "description": "Méthémoglobine, Met Hb",
                 "stable": "8 heures"
             },
             "102": {
@@ -1437,7 +1437,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Magn\u00e9sium, Mg",
+                "description": "Magnésium, Mg",
                 "stable": "8 heures"
             },
             "103": {
@@ -1489,7 +1489,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Lithium, Lith\u00e9mie, Li",
+                "description": "Lithium, Lithémie, Li",
                 "stable": "4 heures"
             },
             "107": {
@@ -1502,7 +1502,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Lipase, Lipas\u00e9mie",
+                "description": "Lipase, Lipasémie",
                 "stable": "24 heures"
             },
             "108": {
@@ -1515,7 +1515,7 @@
                 "containers": [
                     2
                 ],
-                "description": "LH, Hormone Lut\u00e9inisante",
+                "description": "LH, Hormone Lutéinisante",
                 "stable": "72 heures"
             },
             "109": {
@@ -1528,7 +1528,7 @@
                 "containers": [
                     -1
                 ],
-                "description": "Legionellose, Antig\u00e8ne Legionelle urinaire",
+                "description": "Legionellose, Antigène Legionelle urinaire",
                 "stable": "24 heures"
             },
             "110": {
@@ -1541,7 +1541,7 @@
                 "containers": [
                     2
                 ],
-                "description": "LDH, Lactate D\u00e9shydrog\u00e9nase",
+                "description": "LDH, Lactate Déshydrogénase",
                 "stable": "6 heures"
             },
             "111": {
@@ -1569,7 +1569,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Immunotypage, IT, immunofixation IF, immuno electrophor\u00e8se IEP",
+                "description": "Immunotypage, IT, immunofixation IF, immuno electrophorèse IEP",
                 "stable": "5 jours"
             },
             "113": {
@@ -1611,7 +1611,7 @@
                     7
                 ],
                 "description": "Plaquettes, Plaq, Thrombocytes, P (avec NF)",
-                "stable": "24 heures. Au-del\u00e0, diminution du taux."
+                "stable": "24 heures. Au-delà, diminution du taux."
             },
             "116": {
                 "keywords": [
@@ -1625,7 +1625,7 @@
                     -1
                 ],
                 "description": "Plaie, pus, escarre",
-                "stable": "2 heures sur \u00e9couvillon sec, 24 heures sur \u00e9couvillons avec gel"
+                "stable": "2 heures sur écouvillon sec, 24 heures sur écouvillons avec gel"
             },
             "117": {
                 "keywords": [
@@ -1638,7 +1638,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Phosphore, Phosphor\u00e9mie, P",
+                "description": "Phosphore, Phosphorémie, P",
                 "stable": "6 heures"
             },
             "118": {
@@ -1678,7 +1678,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Phadiatop, PHA, M\u00e9lange de pneumallerg\u00e8nes",
+                "description": "Phadiatop, PHA, Mélange de pneumallergènes",
                 "stable": ""
             },
             "121": {
@@ -1690,8 +1690,8 @@
                 "containers": [
                     -1
                 ],
-                "description": "Parasitologie des selles PDF remplac\u00e9e par DDI",
-                "stable": "6 heures \u00e0 temp\u00e9rature ambiante, 12 heures entre 2 et 8\u00b0C"
+                "description": "Parasitologie des selles PDF remplacée par DDI",
+                "stable": "6 heures à température ambiante, 12 heures entre 2 et 8°C"
             },
             "122": {
                 "keywords": [
@@ -1706,8 +1706,8 @@
                 "containers": [
                     7
                 ],
-                "description": "Paludisme, Recherche de plasmodium, palu, goutte \u00e9paisse, Malaria",
-                "stable": "72 heures entre 2 et 8\u00b0C"
+                "description": "Paludisme, Recherche de plasmodium, palu, goutte épaisse, Malaria",
+                "stable": "72 heures entre 2 et 8°C"
             },
             "123": {
                 "keywords": [
@@ -1718,7 +1718,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Ost\u00e9ocalcine",
+                "description": "Ostéocalcine",
                 "stable": ""
             },
             "124": {
@@ -1730,7 +1730,7 @@
                 "containers": [
                     -1
                 ],
-                "description": "Osmolarit\u00e9 urinaire",
+                "description": "Osmolarité urinaire",
                 "stable": ""
             },
             "125": {
@@ -1743,7 +1743,7 @@
                     2,
                     8
                 ],
-                "description": "Osmolarit\u00e9 sanguine",
+                "description": "Osmolarité sanguine",
                 "stable": ""
             },
             "126": {
@@ -1759,8 +1759,8 @@
                 "containers": [
                     -1
                 ],
-                "description": "ORL, pr\u00e9l\u00e8vement de la sph\u00e8re ORL que ce soit au niveau gorge, oreilles, nez ou pharynx, amygdales",
-                "stable": "2 heures sur \u00e9couvillon sec, 24 heures sur \u00e9couvillons avec gel, 48 heures sur eswab"
+                "description": "ORL, prélèvement de la sphère ORL que ce soit au niveau gorge, oreilles, nez ou pharynx, amygdales",
+                "stable": "2 heures sur écouvillon sec, 24 heures sur écouvillons avec gel, 48 heures sur eswab"
             },
             "127": {
                 "keywords": [
@@ -1773,7 +1773,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Oestradiol, E2, 17 B\u00e9ta Oestradiol",
+                "description": "Oestradiol, E2, 17 Béta Oestradiol",
                 "stable": "24 heures"
             },
             "128": {
@@ -1789,7 +1789,7 @@
                 "containers": [
                     7
                 ],
-                "description": "Num\u00e9ration Formule, NF, NFS, NUM, NFP",
+                "description": "Numération Formule, NF, NFS, NUM, NFP",
                 "stable": "24 heures sauf VGM et CCMH 6h"
             },
             "129": {
@@ -1803,7 +1803,7 @@
                     -1
                 ],
                 "description": "Nitrites, NIT",
-                "stable": "24 heures sur urines r\u00e9frig\u00e9r\u00e9s"
+                "stable": "24 heures sur urines réfrigérés"
             },
             "130": {
                 "keywords": [
@@ -1814,7 +1814,7 @@
                 "containers": [
                     7
                 ],
-                "description": "Recherche de cellules sanguines particuli\u00e8res",
+                "description": "Recherche de cellules sanguines particulières",
                 "stable": "6 heures"
             },
             "131": {
@@ -1828,8 +1828,8 @@
                 "containers": [
                     7
                 ],
-                "description": "RAI, Coombs indirect, Agglutinines irr\u00e9guli\u00e8res",
-                "stable": "24 heures, garder le pr\u00e9l\u00e8vement entre 2 et 8\u00b0C si d\u00e9lai plus long"
+                "description": "RAI, Coombs indirect, Agglutinines irrégulières",
+                "stable": "24 heures, garder le prélèvement entre 2 et 8°C si délai plus long"
             },
             "132": {
                 "keywords": [
@@ -1857,7 +1857,7 @@
                     2,
                     4
                 ],
-                "description": "PSA, PSAL, Antig\u00e8ne sp\u00e9cifique prostatique",
+                "description": "PSA, PSAL, Antigène spécifique prostatique",
                 "stable": "4 jours"
             },
             "134": {
@@ -1873,7 +1873,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Prot\u00e9ines, Prot, Protid\u00e9mie, Prot\u00e9in\u00e9mie, Prot\u00e9ines totales",
+                "description": "Protéines, Prot, Protidémie, Protéinémie, Protéines totales",
                 "stable": "24 heures"
             },
             "135": {
@@ -1889,8 +1889,8 @@
                 "containers": [
                     -1
                 ],
-                "description": "Prot\u00e9ines urinaires, Prot\u00e9inurie, A, Albuminurie, inclus dans la CCBU",
-                "stable": "24 heures , 7 jours entre 2 et 8\u00b0C"
+                "description": "Protéines urinaires, Protéinurie, A, Albuminurie, inclus dans la CCBU",
+                "stable": "24 heures , 7 jours entre 2 et 8°C"
             },
             "136": {
                 "keywords": [
@@ -1916,7 +1916,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Progest\u00e9rone, Pg",
+                "description": "Progestérone, Pg",
                 "stable": "7 jours"
             },
             "138": {
@@ -1957,8 +1957,8 @@
                 "containers": [
                     -1
                 ],
-                "description": "Pr\u00e9l\u00e8vement vaginal, PV, bact\u00e9rio vaginale",
-                "stable": "24 heures sur \u00e9couvillon eSwab"
+                "description": "Prélèvement vaginal, PV, bactério vaginale",
+                "stable": "24 heures sur écouvillon eSwab"
             },
             "141": {
                 "keywords": [
@@ -1971,8 +1971,8 @@
                 "containers": [
                     -1
                 ],
-                "description": "Pr\u00e9l\u00e8vement ur\u00e9tral, PU, bact\u00e9riologie ur\u00e9trale",
-                "stable": "24 heures sur \u00e9couvillon eSwab"
+                "description": "Prélèvement urétral, PU, bactériologie urétrale",
+                "stable": "24 heures sur écouvillon eSwab"
             },
             "142": {
                 "keywords": [
@@ -1984,7 +1984,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Pr\u00e9albumine, Pr\u00e9alb",
+                "description": "Préalbumine, Préalb",
                 "stable": "24 heures"
             },
             "143": {
@@ -1999,7 +1999,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Potassium, K, Kali\u00e9mie, inclus dans le ionogramme",
+                "description": "Potassium, K, Kaliémie, inclus dans le ionogramme",
                 "stable": "6 heures"
             },
             "144": {
@@ -2027,7 +2027,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Tegretol, Carbamaz\u00e9pine",
+                "description": "Tegretol, Carbamazépine",
                 "stable": "2 jours"
             },
             "146": {
@@ -2040,8 +2040,8 @@
                 "containers": [
                     6
                 ],
-                "description": "TCA/TCK, Temps de Cephaline Activ\u00e9",
-                "stable": "12 heures pour les patients sous h\u00e9parine, stabilit\u00e9 \u00e0 2 heures"
+                "description": "TCA/TCK, Temps de Cephaline Activé",
+                "stable": "12 heures pour les patients sous héparine, stabilité à 2 heures"
             },
             "147": {
                 "keywords": [
@@ -2085,7 +2085,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Syphilis d\u00e9pistage, BW (Bordet Wassermann), VDRL, TPHA",
+                "description": "Syphilis dépistage, BW (Bordet Wassermann), VDRL, TPHA",
                 "stable": "24 heures"
             },
             "150": {
@@ -2112,7 +2112,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Sodium, NA, Natr\u00e9mie, inclus dans le ionogramme",
+                "description": "Sodium, NA, Natrémie, inclus dans le ionogramme",
                 "stable": "24 heures"
             },
             "152": {
@@ -2139,7 +2139,7 @@
                 "containers": [
                     4
                 ],
-                "description": "SDHA, Sulfate d\u00e9hydro\u00e9piandrost\u00e9rone ou SDHEA",
+                "description": "SDHA, Sulfate déhydroépiandrostérone ou SDHEA",
                 "stable": ""
             },
             "154": {
@@ -2152,7 +2152,7 @@
                 "containers": [
                     -1
                 ],
-                "description": "Scotch test anal, Recherche d\u2019oxyures",
+                "description": "Scotch test anal, Recherche d’oxyures",
                 "stable": "7 jours"
             },
             "155": {
@@ -2165,8 +2165,8 @@
                 "containers": [
                     -1
                 ],
-                "description": "Sang dans les selles, H\u00e9moccult",
-                "stable": "Apporter le pr\u00e9l\u00e8vement le jour m\u00eame, les selles \u00e9mises la nuit peuvent \u00eatre conserv\u00e9es au r\u00e9frig\u00e9rateur jusqu`au lendemain."
+                "description": "Sang dans les selles, Hémoccult",
+                "stable": "Apporter le prélèvement le jour même, les selles émises la nuit peuvent être conservées au réfrigérateur jusqu`au lendemain."
             },
             "156": {
                 "keywords": [
@@ -2178,7 +2178,7 @@
                 "containers": [
                     4
                 ],
-                "description": "Rub\u00e9ole, Rub",
+                "description": "Rubéole, Rub",
                 "stable": "72 heures"
             },
             "157": {
@@ -2191,8 +2191,8 @@
                 "containers": [
                     -1
                 ],
-                "description": "Rotavirus / Ad\u00e9novirus, Recherche de virus dans les selles",
-                "stable": "6 heures \u00e0 temp\u00e9rature ambiante ou 72 heures entre 2 et 8\u00b0C"
+                "description": "Rotavirus / Adénovirus, Recherche de virus dans les selles",
+                "stable": "6 heures à température ambiante ou 72 heures entre 2 et 8°C"
             },
             "158": {
                 "keywords": [
@@ -2205,7 +2205,7 @@
                 "containers": [
                     7
                 ],
-                "description": "R\u00e9ticulocytes, Ret, R\u00e9tic",
+                "description": "Réticulocytes, Ret, Rétic",
                 "stable": "24 heures"
             },
             "159": {
@@ -2220,7 +2220,7 @@
                 "containers": [
                     2
                 ],
-                "description": "R\u00e9serve Alcaline, RA, Bicarbonates, ECO2",
+                "description": "Réserve Alcaline, RA, Bicarbonates, ECO2",
                 "stable": "24 heures"
             },
             "160": {
@@ -2232,8 +2232,8 @@
                 "containers": [
                     -1
                 ],
-                "description": "Recherches particuli\u00e8res dans les urines (SPB, ac\u00e9tone\u2026)",
-                "stable": "2 heures, 24 heures si l`\u00e9chantillon est conserv\u00e9 \u00e0 entre 2 et 8\u00b0C"
+                "description": "Recherches particulières dans les urines (SPB, acétone…)",
+                "stable": "2 heures, 24 heures si l`échantillon est conservé à entre 2 et 8°C"
             },
             "161": {
                 "keywords": [
@@ -2247,7 +2247,7 @@
                     -1
                 ],
                 "description": "VIRUS Grippe, Grippe, Influenza virus",
-                "stable": "24 heures entre 2 et 8\u00b0C"
+                "stable": "24 heures entre 2 et 8°C"
             },
             "162": {
                 "keywords": [
@@ -2273,7 +2273,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Ur\u00e9e, Ur\u00e9mie, Azot\u00e9mie",
+                "description": "Urée, Urémie, Azotémie",
                 "stable": "24 heures"
             },
             "164": {
@@ -2286,7 +2286,7 @@
                 "containers": [
                     -1
                 ],
-                "description": "Ur\u00e9e urinaire, Azoturie",
+                "description": "Urée urinaire, Azoturie",
                 "stable": "2 jours"
             },
             "165": {
@@ -2300,7 +2300,7 @@
                 "containers": [
                     2
                 ],
-                "description": "TSH, Thyr\u00e9ostimuline, TSHus",
+                "description": "TSH, Thyréostimuline, TSHus",
                 "stable": "7 jours"
             },
             "166": {
@@ -2364,7 +2364,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Triglyc\u00e9rides, TG, Trig, inclu dans l`EAL",
+                "description": "Triglycérides, TG, Trig, inclu dans l`EAL",
                 "stable": "24 heures"
             },
             "171": {
@@ -2378,7 +2378,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Transferrine, TRF, sid\u00e9rophylline",
+                "description": "Transferrine, TRF, sidérophylline",
                 "stable": "24 heures"
             },
             "172": {
@@ -2417,7 +2417,7 @@
                     -1
                 ],
                 "description": "Toxiques urinaires",
-                "stable": "48 heures entre 2 et 8\u00b0C"
+                "stable": "48 heures entre 2 et 8°C"
             },
             "175": {
                 "keywords": [
@@ -2429,7 +2429,7 @@
                 "containers": [
                     2
                 ],
-                "description": "Testost\u00e9rone totale, Testo",
+                "description": "Testostérone totale, Testo",
                 "stable": "24 heures"
             },
             "176": {
@@ -2443,7 +2443,7 @@
                 "containers": [
                     7
                 ],
-                "description": "Test de Kleihauer, TKL, Recherche d`h\u00e9maties f\u0153tales",
+                "description": "Test de Kleihauer, TKL, Recherche d`hématies fœtales",
                 "stable": "48 heures"
             },
             "177": {
@@ -2457,7 +2457,7 @@
                     -1
                 ],
                 "description": "VRS, Virus Respiratoire Syncytial",
-                "stable": "4 heures \u00e0 temp\u00e9rature ambiante, 24 heures si \u00e9chantillon conserv\u00e9 entre 2 et 8\u00b0C."
+                "stable": "4 heures à température ambiante, 24 heures si échantillon conservé entre 2 et 8°C."
             },
             "178": {
                 "keywords": [
@@ -2469,7 +2469,7 @@
                 "containers": [
                     7
                 ],
-                "description": "Vitesse de s\u00e9dimentation, VS",
+                "description": "Vitesse de sédimentation, VS",
                 "stable": "8 heures"
             },
             "179": {
